@@ -1,0 +1,28 @@
+<% for(var i=0; i < users.length; i++) {%>
+    <tr>
+        <td>
+            <%=i+1%>
+        </td>
+        <td>
+            <%=users[i].name%>
+        </td>
+        <td>
+            <%=users[i].age%>
+        </td>
+        <td>
+            <%=users[i].room%>
+        </td>
+        <td>
+            <a href="/update-user?/id=<%=users[i]._id%>" class="btn border-shadow update">
+                <span class="text-gradient">
+                    sửa
+                </span>
+            </a>
+            <a class="btn border-shadow update" data-id=<%=users[i]._id%>>
+                <span class="text-gradient">
+                    xóa
+                </span>
+            </a>
+        </td>
+    </tr>
+    <%} %>

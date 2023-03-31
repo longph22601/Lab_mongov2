@@ -1,0 +1,19 @@
+#site-main{
+    margin-top: 6em;
+
+}
+#site-main .container .box-nav>a{
+    font-size: 1em;
+    padding: .5em 1em;
+}
+#site-main .container form{
+    margin: 2em 0;
+}
+.table{
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.table tr:hover{
+    background-color: aquamarine;
+}
